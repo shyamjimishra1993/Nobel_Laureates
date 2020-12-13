@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52183D5A258532B300D9FA4D /* LaureateDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52183D59258532B300D9FA4D /* LaureateDetailsViewController.swift */; };
+		5218C4C62584A34A000F1A23 /* nobel_prize_laureates.json in Resources */ = {isa = PBXBuildFile; fileRef = 5218C4C52584A34A000F1A23 /* nobel_prize_laureates.json */; };
+		5218C4CA2584A63C000F1A23 /* NobelLaureates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218C4C92584A63C000F1A23 /* NobelLaureates.swift */; };
+		5231E4BB2584DC1E00617FC6 /* LocationPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5231E4BA2584DC1E00617FC6 /* LocationPickerController.swift */; };
+		5231E4BE2584E86100617FC6 /* LaureatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5231E4BD2584E86100617FC6 /* LaureatesViewModel.swift */; };
+		5231E4C02585161000617FC6 /* LaureateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5231E4BF2585161000617FC6 /* LaureateTableViewCell.swift */; };
+		5231E4C32585179100617FC6 /* LaureatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5231E4C22585179100617FC6 /* LaureatesTableViewController.swift */; };
 		5279899B25849DD70051A50F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5279899A25849DD70051A50F /* AppDelegate.swift */; };
 		5279899D25849DD70051A50F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5279899C25849DD70051A50F /* SceneDelegate.swift */; };
-		5279899F25849DD70051A50F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5279899E25849DD70051A50F /* ViewController.swift */; };
+		5279899F25849DD70051A50F /* SearchLaureatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5279899E25849DD70051A50F /* SearchLaureatesViewController.swift */; };
 		527989A225849DD70051A50F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527989A025849DD70051A50F /* Main.storyboard */; };
 		527989A425849DE20051A50F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527989A325849DE20051A50F /* Assets.xcassets */; };
 		527989A725849DE20051A50F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527989A525849DE20051A50F /* LaunchScreen.storyboard */; };
-		527989B225849DE30051A50F /* Nobel_LaureatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527989B125849DE30051A50F /* Nobel_LaureatesTests.swift */; };
+		527989B225849DE30051A50F /* LaureatesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527989B125849DE30051A50F /* LaureatesViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52183D59258532B300D9FA4D /* LaureateDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureateDetailsViewController.swift; sourceTree = "<group>"; };
+		5218C4C52584A34A000F1A23 /* nobel_prize_laureates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nobel_prize_laureates.json; sourceTree = "<group>"; };
+		5218C4C92584A63C000F1A23 /* NobelLaureates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NobelLaureates.swift; sourceTree = "<group>"; };
+		5231E4BA2584DC1E00617FC6 /* LocationPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerController.swift; sourceTree = "<group>"; };
+		5231E4BD2584E86100617FC6 /* LaureatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureatesViewModel.swift; sourceTree = "<group>"; };
+		5231E4BF2585161000617FC6 /* LaureateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureateTableViewCell.swift; sourceTree = "<group>"; };
+		5231E4C22585179100617FC6 /* LaureatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureatesTableViewController.swift; sourceTree = "<group>"; };
 		5279899725849DD70051A50F /* Nobel_Laureates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nobel_Laureates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5279899A25849DD70051A50F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5279899C25849DD70051A50F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5279899E25849DD70051A50F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5279899E25849DD70051A50F /* SearchLaureatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLaureatesViewController.swift; sourceTree = "<group>"; };
 		527989A125849DD70051A50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		527989A325849DE20051A50F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		527989A625849DE20051A50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		527989A825849DE20051A50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		527989AD25849DE30051A50F /* Nobel_LaureatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nobel_LaureatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		527989B125849DE30051A50F /* Nobel_LaureatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nobel_LaureatesTests.swift; sourceTree = "<group>"; };
+		527989B125849DE30051A50F /* LaureatesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureatesViewModelTests.swift; sourceTree = "<group>"; };
 		527989B325849DE30051A50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +72,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52183D562585312F00D9FA4D /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5231E4BF2585161000617FC6 /* LaureateTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		52183D572585314A00D9FA4D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				527989A025849DD70051A50F /* Main.storyboard */,
+				527989A525849DE20051A50F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		52183D582585319600D9FA4D /* jsonData */ = {
+			isa = PBXGroup;
+			children = (
+				5218C4C52584A34A000F1A23 /* nobel_prize_laureates.json */,
+			);
+			path = jsonData;
+			sourceTree = "<group>";
+		};
+		52183D5B2585446F00D9FA4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5218C4C92584A63C000F1A23 /* NobelLaureates.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5231E4BC2584E82E00617FC6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5231E4BD2584E86100617FC6 /* LaureatesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5231E4C1258516AD00617FC6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5279899E25849DD70051A50F /* SearchLaureatesViewController.swift */,
+				5231E4C22585179100617FC6 /* LaureatesTableViewController.swift */,
+				52183D59258532B300D9FA4D /* LaureateDetailsViewController.swift */,
+				5231E4BA2584DC1E00617FC6 /* LocationPickerController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		5279898E25849DD70051A50F = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +145,16 @@
 		5279899925849DD70051A50F /* Nobel_Laureates */ = {
 			isa = PBXGroup;
 			children = (
+				527989A825849DE20051A50F /* Info.plist */,
 				5279899A25849DD70051A50F /* AppDelegate.swift */,
 				5279899C25849DD70051A50F /* SceneDelegate.swift */,
-				5279899E25849DD70051A50F /* ViewController.swift */,
-				527989A025849DD70051A50F /* Main.storyboard */,
 				527989A325849DE20051A50F /* Assets.xcassets */,
-				527989A525849DE20051A50F /* LaunchScreen.storyboard */,
-				527989A825849DE20051A50F /* Info.plist */,
+				52183D5B2585446F00D9FA4D /* Model */,
+				5231E4BC2584E82E00617FC6 /* ViewModel */,
+				52183D572585314A00D9FA4D /* Storyboards */,
+				5231E4C1258516AD00617FC6 /* ViewController */,
+				52183D562585312F00D9FA4D /* TableViewCell */,
+				52183D582585319600D9FA4D /* jsonData */,
 			);
 			path = Nobel_Laureates;
 			sourceTree = "<group>";
@@ -93,7 +162,7 @@
 		527989B025849DE30051A50F /* Nobel_LaureatesTests */ = {
 			isa = PBXGroup;
 			children = (
-				527989B125849DE30051A50F /* Nobel_LaureatesTests.swift */,
+				527989B125849DE30051A50F /* LaureatesViewModelTests.swift */,
 				527989B325849DE30051A50F /* Info.plist */,
 			);
 			path = Nobel_LaureatesTests;
@@ -180,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5218C4C62584A34A000F1A23 /* nobel_prize_laureates.json in Resources */,
 				527989A725849DE20051A50F /* LaunchScreen.storyboard in Resources */,
 				527989A425849DE20051A50F /* Assets.xcassets in Resources */,
 				527989A225849DD70051A50F /* Main.storyboard in Resources */,
@@ -200,9 +270,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5279899F25849DD70051A50F /* ViewController.swift in Sources */,
+				52183D5A258532B300D9FA4D /* LaureateDetailsViewController.swift in Sources */,
+				5231E4C02585161000617FC6 /* LaureateTableViewCell.swift in Sources */,
+				5279899F25849DD70051A50F /* SearchLaureatesViewController.swift in Sources */,
+				5231E4C32585179100617FC6 /* LaureatesTableViewController.swift in Sources */,
+				5218C4CA2584A63C000F1A23 /* NobelLaureates.swift in Sources */,
 				5279899B25849DD70051A50F /* AppDelegate.swift in Sources */,
+				5231E4BB2584DC1E00617FC6 /* LocationPickerController.swift in Sources */,
 				5279899D25849DD70051A50F /* SceneDelegate.swift in Sources */,
+				5231E4BE2584E86100617FC6 /* LaureatesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527989B225849DE30051A50F /* Nobel_LaureatesTests.swift in Sources */,
+				527989B225849DE30051A50F /* LaureatesViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Nobel_Laureates/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Nobel_Laureates/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -60,5 +60,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>We use your current location to focus the map near to your location.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We use your current location to focus the map near to your location.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We use your current location to focus the map near to your location.</string>
 </dict>
 </plist>
